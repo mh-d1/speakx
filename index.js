@@ -77,7 +77,7 @@ const handleLogin = ()=>{
         const inputPassword = document.querySelector(".input-password")
         if(inputPassword.value == foundUser.password){
             // 6. kalo bener, berarti berhasil login.
-            window.location.href = "/tweets"
+            window.location.href = "/page.js"
             localStorage.setItem("user", foundUser.name)
         }
         else{
